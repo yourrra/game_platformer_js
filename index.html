@@ -8,12 +8,26 @@
         <link rel="stylesheet" href="./css/style.css" />
     </head>
     <body>
-        <!-- <button id="left" class="btnLeft">left</button>
-        <button id="right" class="btnRight">right</button> -->
-        <div id="imgBlock" class="imgBlock">
-            <img id="heroImg" class="heroImg" src="./img/Hero.png" />
+        <div id="canvas" oncontextmenu="return false" class="canvas">
+            <div>
+                <img
+                    src="./assets/2 Background/Day/Background.png"
+                    class="backStyle"
+                />
+            </div>
+            <img src="./img/fullscreen.png" id="fsBtn" class="fsBtn" />
+            <div id="imgBlock" class="imgBlock">
+                <img id="heroImg" class="heroImg" src="./img/Hero.png" />
+            </div>
+            <div id="jumpBlock" class="jumpBlockStyle">
+                <img src="./img/Hero.png" class="jumpBtn" />
+                <div class="borderJumpBtn"></div>
+            </div>
+            <div id="hitBlock" class="hitBlockStyle">
+                <img src="./img/Hero.png" class="hitBtn" />
+                <div class="borderHitBtn"></div>
+            </div>
         </div>
-        <!-- <p id="hero" class="heroStyle">Text</p> -->
         <script type="module" src="/js/game.js"></script>
     </body>
 </html>
