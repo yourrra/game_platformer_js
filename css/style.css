@@ -104,3 +104,13 @@
     bottom: 64px;
     width: 100%;
 }
+
+.infoStyle {
+    display: none;
+    position: absolute;
+    left: 64px;
+    top: 96px;
+    background-color: black;
+    color: white;
+    font-size: 20pt;
+}
